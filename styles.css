@@ -55,9 +55,9 @@ body {
     linear-gradient(180deg, rgba(5,7,12,0.2), rgba(5,7,12,0.3)),
     url("./assets/space.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 .container { width: min(1100px, calc(100% - 32px)); margin: 0 auto; }
@@ -388,7 +388,7 @@ body {
   }
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
   body {
     background-attachment: scroll;   /* keep this */
     background-repeat: no-repeat;
@@ -402,7 +402,7 @@ body {
     animation: none;   /* remove drift to prevent glitch */
     transform: none;   /* extra safety */
   }
-}
+} */
 
 
 
