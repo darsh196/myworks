@@ -349,7 +349,12 @@ body {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE/Edge */
   }
+  .modal-content {
+    margin-right:10px;
+    margin-left:10px;
+  }
 }
+
 
 
 
