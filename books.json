@@ -37,7 +37,7 @@
     "status": "Draft",
     "blurb": "A love story amidst cruelty and destruction.",
     "synopsis": "In Nazi-occupied Paris, a teenager falls for a peculiar girl hailing from a mysterious kingdom threatened by the Germans.",
-    "cover": "./covers/ode-to-the-void.png",
+    "cover": "./covers/apip.jpeg",
     "tags": ["Love", "War", "Memory"],
     "links": [
         { "label": "Read Now", "url": "#" }
@@ -45,3 +45,4 @@
   }
 
 ]
+
