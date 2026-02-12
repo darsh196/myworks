@@ -55,8 +55,25 @@
       async init() {
         const res = await fetch("./books.json", { cache: "no-store" });
         this.books = await res.json();
+        await this.loadAllSummaries(); // ✅ loads rating counts for homepage cards
       },
 
+      async loadAllSummaries() {
+  this._apiSummary = this._apiSummary || {};
+
+      await Promise.all(
+        this.books.map(async (b) => {
+          try {
+            const res = await fetch(`${API}/api/books/${b.id}/summary`);
+            const data = await res.json();
+            this.$set(this._apiSummary, b.id, data); // important for Vue 2 reactivity
+          } catch (e) {
+            // ignore per-book errors
+          }
+        })
+      );
+    },
+      
       renderTurnstile() {
         // wait until Turnstile script is loaded
         if (!window.turnstile) return;
@@ -147,6 +164,7 @@
         }
 
         await this.refreshSummary(this.activeBook.id);
+        await this.loadAllSummaries();
         },
 
       // ---------- Comments----------
@@ -211,4 +229,5 @@
     return String(Date.now()) + Math.random().toString(16).slice(2);
   }
 })();
+
 
