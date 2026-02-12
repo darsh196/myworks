@@ -337,20 +337,19 @@ body {
   .modal-content { grid-template-columns: 1fr; }
   .modal-left, .modal-right {
     justify-content: stretch; /* Override center alignment */
-    width: 100%;
+    width: min(980px, calc(100vw - 36px));
   }
 
   .section {
-    width: 100%; /* Ensure sections take full width */
+    width: min(980px, calc(100vw - 36px));
   }
   
   .poster {
-    width: 100%;
-    max-width: 100%;
+    width: min(980px, calc(100vw - 36px));
   }
   
   .links {
-    width: 100%;
+    width: min(980px, calc(100vw - 36px));
   }
 }
 
@@ -384,6 +383,7 @@ body {
     width: 100%;
   }
 }
+
 
 
 
