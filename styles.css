@@ -92,11 +92,22 @@ body {
 }
 
 .turnstile-slot {
-  padding: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
+
 .turnstile-slot > div {
-  display: inline-block;
+  width: 100%;      /* fill column */
+  display: block;   /* NOT inline-block */
 }
+
+.turnstile-slot iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block;
+}
+
 
 .textarea { min-height: 110px; resize: vertical; }
 
@@ -375,6 +386,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 
 
