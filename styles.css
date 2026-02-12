@@ -388,17 +388,23 @@ body {
   }
 }
 
-/* Mobile Safari/Chrome: avoid background resize/jitter */
 @media (max-width: 900px) {
   body {
-    background-attachment: scroll;  /* kill fixed */
+    background-attachment: scroll;   /* keep this */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   body::before {
-    position: absolute;             /* not fixed */
-    inset: -10%;                       /* no -20% */
+    position: fixed;   /* IMPORTANT: follows scroll */
+    inset: 0;          /* cover the viewport */
+    animation: none;   /* remove drift to prevent glitch */
+    transform: none;   /* extra safety */
   }
 }
+
+
 
 
 
