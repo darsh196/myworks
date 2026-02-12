@@ -250,9 +250,8 @@ body {
 
 .modal-content {
   padding-top: 18px;
-  padding-right: 18px; 
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: minmax(0, 360px) minmax(0, 1fr);
   gap: 20px;
   align-items: start;
   justify-items: stretch;
@@ -270,8 +269,12 @@ body {
   object-fit: contain;  /* Add this */
 }
 
+.section, .text, .comment-text, .btn {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
 
-.modal-left, .modal-right { display: grid; gap: 22px; width: 100%; min-width:0;}
+.modal-left, .modal-right { display: grid; gap: 22px; min-width:0; width:auto;}
 
 .modal-content > * {
   min-width: 0;
@@ -367,6 +370,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 
 
