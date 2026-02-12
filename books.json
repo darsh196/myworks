@@ -1,0 +1,31 @@
+[
+  {
+    "id": "polymorph",
+    "title": "Polymorph",
+    "year": 2025,
+    "genre": "Drama / Horror",
+    "status": "Short story",
+    "blurb": "An old man on his deathbed recalls a lifetime of encounters with something that refuses to keep a single shape.",
+    "synopsis": "On the edge of death, a man tries to pin down the truth behind a presence that has followed him for decades—sometimes as a stranger, sometimes as a friend, sometimes as himself.",
+    "cover": "./covers/polymorph.jpg",
+    "tags": ["Identity", "Memory", "Uncanny"],
+    "links": [
+      { "label": "Read Now", "url": "#" }
+    ]
+  },
+  
+  {
+    "id": "ode-to-the-void",
+    "title": "Ode to the Void",
+    "year": 2026,
+    "genre": "Sci-Fi / Mystery",
+    "status": "Draft",
+    "blurb": "A new colony world hides a prison. A policewoman follows a chain of murders into something inhuman.",
+    "synopsis": "A string of brutal deaths forces an investigator to confront the colony’s founding lie: the planet was never meant to be home—it was meant to hold what couldn’t be kept on Earth.",
+    "cover": "./covers/ode-to-the-void.png",
+    "tags": ["Space", "Conspiracy", "Aliens"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
+]
