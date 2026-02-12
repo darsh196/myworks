@@ -334,23 +334,33 @@ body {
 
 @media (max-width: 980px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
-  .modal-content { grid-template-columns: 1fr; }
-  .modal-left, .modal-right {
-    justify-content: stretch; /* Override center alignment */
-    width: min(980px, calc(100vw - 36px));
+
+  /* modal becomes 1 column */
+  .modal-content {
+    grid-template-columns: 1fr;
+    justify-items: stretch;
   }
 
-  .section {
-    width: min(980px, calc(100vw - 36px));
+  /* stop any sideways overflow */
+  .modal { overflow-x: hidden; }
+
+  /* stretch the inner columns to the modal inner width */
+  .modal-left, .modal-right {
+    justify-content: stretch;
+    justify-items: stretch;
+    width: 100%;
   }
-  
-  .poster {
-    width: min(980px, calc(100vw - 36px));
-  }
-  
+
+  /* all bubbles fill the modal’s inner width (NOT viewport width) */
+  .section,
+  .poster,
   .links {
-    width: min(980px, calc(100vw - 36px));
+    width: 100%;
+    max-width: 100%;
   }
+
+  /* optional: keep poster centered visually */
+  .poster { margin: 0 auto; }
 }
 
 @media (max-width: 640px) {
@@ -358,31 +368,34 @@ body {
   .grid { grid-template-columns: 1fr; }
   .row { grid-template-columns: 1fr; }
 
-  .modal::-webkit-scrollbar {
-    display: none; /* Hide scrollbar on mobile */
-  }
+  /* hide scrollbar on mobile */
+  .modal::-webkit-scrollbar { display: none; }
   .modal {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: hidden; /* keep */
   }
+
+  /* keep stretching behavior */
+  .modal-content { justify-items: stretch; }
+
   .modal-left, .modal-right {
-    justify-content: stretch; /* Override center alignment */
+    justify-content: stretch;
+    justify-items: stretch;
     width: 100%;
   }
 
-  .section {
-    width: 100%; /* Ensure sections take full width */
-  }
-  
-  .poster {
+  .section,
+  .poster,
+  .links {
     width: 100%;
     max-width: 100%;
   }
-  
-  .links {
-    width: 100%;
-  }
+
+  .poster { margin: 0 auto; }
 }
+
+
 
 
 
