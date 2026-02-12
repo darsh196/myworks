@@ -153,11 +153,12 @@
                     <input class="input" v-model.trim="commentDraft.email" placeholder="Email (optional, not public)" type="email" />
                   </div>
                   <textarea class="textarea" v-model.trim="commentDraft.text" placeholder="Write a comment…" required></textarea>
-                    <div
+                  <div class="turnstile-slot">  
+                  <div
                         class="cf-turnstile"
                         data-sitekey="0x4AAAAAACa_NwyPixSSIVcn"
                     ></div>
-
+                  </div>
                   <div class="row end">
                     <button class="btn" type="submit" :disabled="!commentDraft.name || !commentDraft.text">Post comment</button>
                   </div>
@@ -205,3 +206,4 @@
   <script src="./app.js"></script>
 </body>
 </html>
+
