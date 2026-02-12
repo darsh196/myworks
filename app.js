@@ -20,6 +20,7 @@
       query: "",
       genreFilter: "",
       activeBook: null,
+      modalLoading: false,
 
       // Draft UI
       myDraftRating: 0,
@@ -122,9 +123,13 @@
 
       async openBook(b) {
         this.activeBook = b;
+        this.modalLoading = true;
         document.body.style.overflow = "hidden";
         await this.refreshSummary(b.id);
         await this.loadComments(b.id);
+
+        this.modalLoading = false;
+        
         this.$nextTick(() => {
           this.renderTurnstile();
         });
@@ -232,6 +237,7 @@
     return String(Date.now()) + Math.random().toString(16).slice(2);
   }
 })();
+
 
 
 
