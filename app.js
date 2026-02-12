@@ -7,6 +7,7 @@
   new Vue({
     el: "#app",
     data: {
+      _apiSummary: {},   // ✅ must be here for Vue 2 reactivity
       turnstileWidgetId: null,
       turnstileReady: false,
       site: {
@@ -59,20 +60,16 @@
       },
 
       async loadAllSummaries() {
-  this._apiSummary = this._apiSummary || {};
-
-      await Promise.all(
-        this.books.map(async (b) => {
-          try {
-            const res = await fetch(`${API}/api/books/${b.id}/summary`);
-            const data = await res.json();
-            this.$set(this._apiSummary, b.id, data); // important for Vue 2 reactivity
-          } catch (e) {
-            // ignore per-book errors
-          }
-        })
-      );
-    },
+        await Promise.all(
+          this.books.map(async (b) => {
+            try {
+              const res = await fetch(`${API}/api/books/${b.id}/summary`, { cache: "no-store" });
+              const data = await res.json();
+              this.$set(this._apiSummary, b.id, data);
+            } catch (e) {}
+          })
+        );
+      },
       
       renderTurnstile() {
         // wait until Turnstile script is loaded
@@ -97,12 +94,11 @@
     
 
       async refreshSummary(bookId) {
-        const res = await fetch(`${API}/api/books/${bookId}/summary`);
+        const res = await fetch(`${API}/api/books/${bookId}/summary`, { cache: "no-store" });
         const data = await res.json();
+        this.$set(this._apiSummary, bookId, data); // ✅ reactive
+      },
 
-        this._apiSummary = this._apiSummary || {};
-        this._apiSummary[bookId] = data;
-        },
 
       async loadComments(bookId) {
         const res = await fetch(`${API}/api/books/${bookId}/comments`);
@@ -165,6 +161,7 @@
 
         await this.refreshSummary(this.activeBook.id);
         await this.loadAllSummaries();
+        this.$forceUpdate();
         },
 
       // ---------- Comments----------
@@ -229,5 +226,6 @@
     return String(Date.now()) + Math.random().toString(16).slice(2);
   }
 })();
+
 
 
