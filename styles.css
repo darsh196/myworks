@@ -252,7 +252,7 @@ body {
   padding-top: 18px;
   padding-right: 18px; 
   display: grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: minmax(200px, 340px) 1fr;;
   gap: 20px;
   align-items: start;
   justify-items: center;
@@ -260,9 +260,9 @@ body {
 }
 
 .poster {
-  width: 340px;
-  max-width: 100%;
-  height: auto;             /* keeps portrait ratio */
+  width: 100%;           /* Change this */
+  max-width: 340px;      /* Add this */
+  height: auto;
   display: block;
   border-radius: 18px;
   border: 1px solid var(--line);
@@ -328,7 +328,14 @@ body {
 
 @media (max-width: 980px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
-  .modal-content { grid-template-columns: 1fr; }
+  .modal-content { 
+    grid-template-columns: 1fr; 
+    padding: 18px;
+  }
+  .poster {
+    margin: 0 auto;  /* Center on smaller screens */
+  }
+
   modal::-webkit-scrollbar {
     display: none; /* Hide scrollbar on mobile */
   }
@@ -352,6 +359,7 @@ body {
     -ms-overflow-style: none; /* IE/Edge */
   }
 }
+
 
 
 
