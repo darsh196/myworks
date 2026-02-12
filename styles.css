@@ -120,7 +120,7 @@ body {
 }
 
 .cover.big {
-  width: 320px;              /* fixed poster width */
+  width: 220px;              /* fixed poster width */
   aspect-ratio: 2 / 3;       /* portrait */
   background-size: contain;  /* show full image */
   background-repeat: no-repeat;
@@ -394,6 +394,7 @@ body {
 
   .poster { margin: 0 auto; }
 }
+
 
 
 
