@@ -65,7 +65,7 @@
       await Promise.all(
         this.books.map(async (b) => {
           try {
-            const res = await fetch(`${API}/api/books/${b.id}/summary`, { cache: "no-store" });
+            const res = await fetch(`${API}/api/books/${b.id}/summary?t=${Date.now()}`, { cache: "no-store" });
             const data = await res.json();
             this.$set(this._apiSummary, b.id, data); // important for Vue 2 reactivity
           } catch (e) {
@@ -98,10 +98,10 @@
     
 
       async refreshSummary(bookId) {
-        const res = await fetch(`${API}/api/books/${b.id}/summary`, { cache: "no-store" });
+        const res = await fetch(`${API}/api/books/${b.id}/summary?t=${Date.now()}`, { cache: "no-store" });
         const data = await res.json();
 
-        this._apiSummary = this._apiSummary || {};
+        //this._apiSummary = this._apiSummary || {};
         this.$set(this._apiSummary, bookId, data);
         },
 
@@ -230,4 +230,5 @@
     return String(Date.now()) + Math.random().toString(16).slice(2);
   }
 })();
+
 
