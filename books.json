@@ -27,5 +27,21 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
+  },
+
+  {
+    "id": "apip",
+    "title": "A Princess in Paris",
+    "year": 2020,
+    "genre": "Romance / Fantasy",
+    "status": "Draft",
+    "blurb": "A love story amidst cruelty and destruction.",
+    "synopsis": "In Nazi-occupied Paris, a teenager falls for a peculiar girl hailing from a mysterious kingdom threatened by the Germans.",
+    "cover": "./covers/ode-to-the-void.png",
+    "tags": ["Love", "War", "Memory"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
   }
+
 ]
