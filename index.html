@@ -153,12 +153,8 @@
                     <input class="input" v-model.trim="commentDraft.email" placeholder="Email (optional, not public)" type="email" />
                   </div>
                   <textarea class="textarea" v-model.trim="commentDraft.text" placeholder="Write a comment…" required></textarea>
-                  <div class="turnstile-slot">  
-                  <div
-                        class="cf-turnstile"
-                        data-sitekey="0x4AAAAAACa_NwyPixSSIVcn"
-                        data-refresh="auto"
-                    ></div>
+                  <div class="turnstile-slot">
+                    <div id="turnstile-box"></div>
                   </div>
                   <div class="row end">
                     <button class="btn" type="submit" :disabled="!commentDraft.name || !commentDraft.text">Post comment</button>
@@ -207,6 +203,7 @@
   <script src="./app.js"></script>
 </body>
 </html>
+
 
 
 
