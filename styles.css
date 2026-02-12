@@ -256,6 +256,7 @@ body {
   gap: 20px;
   align-items: start;
   justify-items: center;
+  width: 100%;
 }
 
 .poster {
@@ -351,6 +352,7 @@ body {
     -ms-overflow-style: none; /* IE/Edge */
   }
 }
+
 
 
 
