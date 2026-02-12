@@ -56,10 +56,6 @@
       async init() {
         const res = await fetch("./books.json", { cache: "no-store" });
         this.books = await res.json();
-
-        this.books.forEach((b) => {
-            this.$set(this._apiSummary, b.id, { avg: 0, count: 0 });
-          });
         
         await this.loadAllSummaries(); // ✅ loads rating counts for homepage cards
       },
@@ -235,6 +231,7 @@
     return String(Date.now()) + Math.random().toString(16).slice(2);
   }
 })();
+
 
 
 
