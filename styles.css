@@ -250,10 +250,12 @@ body {
 
 .modal-content {
   padding-top: 18px;
+  padding-right: 18px; 
   display: grid;
   grid-template-columns: 340px 1fr;
   gap: 20px;
   align-items: start;
+  justify-items: center;
 }
 
 .poster {
@@ -349,4 +351,5 @@ body {
     -ms-overflow-style: none; /* IE/Edge */
   }
 }
+
 
