@@ -405,6 +405,34 @@ body {
 } */
 
 
+.contact-links {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-link {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.06);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  background: var(--btnHover);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
 
 
 
