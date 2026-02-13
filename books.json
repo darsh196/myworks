@@ -73,9 +73,25 @@
         { "label": "Read Now", "url": "#" }
     ]
   }
+
+  {
+    "id": "the-call-from-beyond",
+    "title": "The Call From Beyond",
+    "year": 2019,
+    "genre": "Adventure / Horror",
+    "status": "Summary Available",
+    "blurb": "The city bears everything they've ever wanted.",
+    "synopsis": "Three tales evolve across different centuries where three explorers attempt to find a mystical city they’ve only ever encountered in their dreams.",
+    "cover": "./covers/the-call-from-beyond.png",
+    "tags": ["Period", "Mystery", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
   
 
 ]
+
 
 
 
