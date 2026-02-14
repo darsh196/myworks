@@ -53,7 +53,7 @@
     "blurb": "Inside The Reach, reality is immaterial.",
     "synopsis": "A detective investigates disappearances inside an old power station which serves as a gateway to an oneiric world existing beyond our plane of reality.",
     "cover": "./covers/the-reflection.png",
-    "tags": ["Grief", "Guilt", "Memory", "War"],
+    "tags": ["Grief", "Guilt", "Memory"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
@@ -68,7 +68,7 @@
     "blurb": "In times of fear and paranoia, everything's allowed.",
     "synopsis": "As the Cold War reaches its zenith, the stories of a Soviet defector, a CIA agent and US Navy pilots unfold as they attempt to uncover a deeply buried secret out within the expanse of the Bering Sea.",
     "cover": "./covers/ice-rainbow.png",
-    "tags": ["Period", "Action", "Conspiracy"],
+    "tags": ["Period", "Action", "Conspiracy", "War"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
@@ -168,6 +168,7 @@
   
 
 ]
+
 
 
 
