@@ -113,7 +113,7 @@
     "blurb": "What happened to Anna?",
     "synopsis": "After his girlfriend’s disappearance in a forest where dream, memory and reality are intertwined, a man tries to reconnect with her by returning to the area and hopefully vanquishing his demons.",
     "cover": "./covers/the-picnic.png",
-    "tags": ["Surreal", "Love", "Identity"],
+    "tags": ["Surreal", "Love", "Memory"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
@@ -147,12 +147,28 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
+  },
+
+  {
+    "id": "the-palace-of-dr-remarde",
+    "title": "The Palace of Dr. Remarde",
+    "year": 2020,
+    "genre": "Mystery / Absurdist",
+    "status": "Summary Available",
+    "blurb": "Worst party imagineable.",
+    "synopsis": "Several eccentric characters (and a sheep) find themselves at a party in a palace governed by strange rules of reality and overseen by a God-like presence who seems to be tied to the characters’ misfortune.",
+    "cover": "./covers/the-palace-of-dr-remarde.png",
+    "tags": ["Surreal", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
   }
   
   
   
 
 ]
+
 
 
 
