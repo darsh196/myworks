@@ -155,10 +155,10 @@
     "year": 2020,
     "genre": "Mystery / Absurdist",
     "status": "Summary Available",
-    "blurb": "Worst party imagineable.",
+    "blurb": "Worst party imaginable.",
     "synopsis": "Several eccentric characters (and a sheep) find themselves at a party in a palace governed by strange rules of reality and overseen by a God-like presence who seems to be tied to the characters’ misfortune.",
     "cover": "./covers/the-palace-of-dr-remarde.png",
-    "tags": ["Surreal", "Identity"],
+    "tags": ["Surreal", "Identity", "Period"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
@@ -168,6 +168,7 @@
   
 
 ]
+
 
 
 
