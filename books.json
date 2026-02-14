@@ -8,7 +8,7 @@
     "blurb": "This entity keeps haunting us, even when we are at death's door.",
     "synopsis": "An old man on his deathbed reflects on three encounters he had with a mysterious shape-shifting entity throughout his lifetime.",
     "cover": "./covers/polymorph.jpg",
-    "tags": ["Identity", "Memory", "Uncanny"],
+    "tags": ["Identity", "Memory", "War"],
     "links": [
       { "label": "Read Now", "url": "#" }
     ]
@@ -53,7 +53,7 @@
     "blurb": "Inside The Reach, reality is immaterial.",
     "synopsis": "A detective investigates disappearances inside an old power station which serves as a gateway to an oneiric world existing beyond our plane of reality.",
     "cover": "./covers/the-reflection.png",
-    "tags": ["Grief", "Guilt", "Memory"],
+    "tags": ["Grief", "Guilt", "Memory", "War"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
@@ -132,12 +132,28 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
+  },
+
+  {
+    "id": "assimilation",
+    "title": "Assimilation",
+    "year": 2021,
+    "genre": "Sci-Fi / Post-Apocalyptic ",
+    "status": "Summary Available",
+    "blurb": "The truth lies on the surface.",
+    "synopsis": "Within a post-apocalyptic Earth, a man embarks on a quest to unravel the mysteries behind the world's downfall through visions of someone who lived before the apocalypse.",
+    "cover": "./covers/assimilation.png",
+    "tags": ["War", "Conspiracy", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
   }
   
   
   
 
 ]
+
 
 
 
