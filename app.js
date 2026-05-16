@@ -11,7 +11,7 @@
       turnstileReady: false,
       site: {
         title: "My Works",
-        subtitle: "Stories, novels, and everything I’m creating.",
+        subtitle: "Stories & Novels by Darshan Jain Goburdhone",
         author: "Darshan Goburdhone"
       },
       books: [],
