@@ -177,7 +177,37 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  }, 
+
+  {
+    "id": "midnight-veil",
+    "title": "Midnight Veil",
+    "year": 2025,
+    "genre": "Sci-Fi / Mystery",
+    "status": "In Development - Story Fully Planned Out",
+    "blurb": "It all leads back to her.",
+    "synopsis": "Ten years after a man spends a fateful night with an enigmatic woman, her reappearance draws him into a complex web involving aliens, a Russian agent, a Polish gangster and a Japanese scientist all somehow connected to her.",
+    "cover": "./covers/midnight-veil.png",
+    "tags": ["Surreal", "Identity", "Conspiracy","Memory"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }, 
+
+  {
+    "id": "nephilims",
+    "title": "Nephilims",
+    "year": 2026,
+    "genre": "Sci-Fi / Thriller",
+    "status": "In Development",
+    "blurb": "Prisons within prisons.",
+    "synopsis": "When a newly colonized planet turns out to be a prison for exiled extraterrestrials, a police woman investigates a series of murders linked to the strange beings who used to occupy the planet.",
+    "cover": "./covers/midnight-veil.png",
+    "tags": ["Aliens", "Crime", "Memory"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  
   
   
   
