@@ -174,7 +174,7 @@
     "blurb": "It all leads back to her.",
     "synopsis": "Ten years after a man spends a fateful night with an enigmatic woman, her reappearance draws him into a complex web involving aliens, a Russian agent, a Polish gangster and a Japanese scientist all somehow connected to her.",
     "cover": "./covers/midnight-veil.png",
-    "tags": ["Surreal", "Identity", "Conspiracy","Memory"],
+    "tags": ["Surreal", "Identity", "Conspiracy", "Hyperlink Narrative"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
@@ -193,7 +193,37 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  
+  },
+
+  {
+    "id": "lost-harmony",
+    "title": "Lost Harmony",
+    "year": 2026,
+    "genre": "Mystery / Thriller",
+    "status": "In Development",
+    "blurb": "Her music could reshape everything.",
+    "synopsis": "After the mysterious death of an online friend, an aspiring singer is pulled into a dark web community that claims her music holds unearthly powers and warns that the forces behind her friend’s death are now closing in on her.",
+    "cover": "./covers/lost-harmony.png",
+    "tags": ["Surreal", "Conspiracy", "Trauma"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  },
+
+
+  {
+    "id": "paradise-whirl",
+    "title": "Paradise Whirl",
+    "year": 2026,
+    "genre": "Crime / Drama",
+    "status": "In Development",
+    "blurb": "Paradise isn't always what it looks like.",
+    "synopsis": "On a seemingly idyllic island, several lives weave together in a ballet of violence, addiction, corruption and the many woes that besmirch the country.",
+    "cover": "./covers/paradise-whirl.png",
+    "tags": ["Crime", "Hyperlink Narrative", "Trauma"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
   }
   
   
