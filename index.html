@@ -41,7 +41,7 @@
         <div class="grid">
           <article
             class="card"
-            v-for="b in filteredBooks"
+            v-for="b in pagedBooks"
             :key="b.id"
             @click="openBook(b)"
             role="button"
@@ -68,6 +68,21 @@
             </div>
           </article>
         </div>
+
+        <div class="pagination" v-if="totalPages > 1">
+          <button class="page-btn" @click="prevPage()" :disabled="currentPage === 1" aria-label="Previous page">&#8592;</button>
+          <button
+            v-for="n in totalPages"
+            :key="n"
+            class="page-btn"
+            :class="{ active: n === currentPage }"
+            @click="goToPage(n)"
+            :aria-label="'Page ' + n"
+            :aria-current="n === currentPage ? 'page' : false"
+          >{{ n }}</button>
+          <button class="page-btn" @click="nextPage()" :disabled="currentPage === totalPages" aria-label="Next page">&#8594;</button>
+        </div>
+        
       </section>
 
       <!-- Book Detail Modal -->
