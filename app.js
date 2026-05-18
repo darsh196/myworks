@@ -3,6 +3,7 @@
 (function () {
 
   const API = "https://damp-wind-8900.darshgb.workers.dev";
+  const PAGE_SIZE = 12;
 
   new Vue({
     el: "#app",
@@ -20,6 +21,7 @@
       query: "",
       genreFilter: "",
       activeBook: null,
+      currentPage: 1,
       modalLoading: false,
 
       // Draft UI
@@ -51,7 +53,18 @@
         return list.sort((a, b) =>
             a.title.localeCompare(b.title, undefined, { sensitivity: "base" })
         );
+      },
+      totalPages: function () {
+        return Math.max(1, Math.ceil(this.filteredBooks.length / PAGE_SIZE));
+      },
+      pagedBooks: function () {
+        const start = (this.currentPage - 1) * PAGE_SIZE;
+        return this.filteredBooks.slice(start, start + PAGE_SIZE);
       }
+    },
+    watch: {
+      query: function () { this.currentPage = 1; },
+      genreFilter: function () { this.currentPage = 1; }
     },
     methods: {
       async init() {
@@ -61,6 +74,13 @@
         await this.loadAllSummaries(); // loads rating counts for homepage cards
         this.$forceUpdate();
       },
+
+      goToPage(n) {
+        this.currentPage = Math.max(1, Math.min(n, this.totalPages));
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      },
+      prevPage() { this.goToPage(this.currentPage - 1); },
+      nextPage() { this.goToPage(this.currentPage + 1); },
 
       async loadAllSummaries() {
   this._apiSummary = this._apiSummary || {};
