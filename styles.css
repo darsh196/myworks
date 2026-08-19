@@ -386,6 +386,13 @@ body {
   font-weight: 600;
 }
 
+.btn-disabled,
+.btn-disabled:hover {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background: var(--btn);
+}
+
 
 @media (max-width: 980px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
