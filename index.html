@@ -120,15 +120,45 @@
                 :alt="activeBook.title + ' cover'"
                 />
 
-              <div class="links" v-if="activeBook.links && activeBook.links.length">
-                <a
-                  class="btn"
-                  v-for="(l, idx) in activeBook.links"
-                  :key="idx"
-                  :href="l.url"
-                  target="_blank"
-                  rel="noreferrer"
-                >{{ l.label }}</a>
+              <div class="links">
+                <!-- Links exist -->
+                <template v-if="activeBook.links && activeBook.links.length">
+                  <template v-for="(l, idx) in activeBook.links">
+              
+                    <!-- Real link -->
+                    <a
+                      v-if="l.url && l.url !== '#'"
+                      class="btn"
+                      :key="'link-' + idx"
+                      :href="l.url"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {{ l.label }}
+                    </a>
+              
+                    <!-- No real link -->
+                    <button
+                      v-else
+                      class="btn btn-disabled"
+                      :key="'disabled-' + idx"
+                      disabled
+                    >
+                      {{ l.label || 'Read Now' }}
+                    </button>
+              
+                  </template>
+              
+                </template>
+              
+                <!-- No links array at all -->
+                <button
+                  v-else
+                  class="btn btn-disabled"
+                  disabled
+                >
+                  Read Now
+                </button>
               </div>
 
               <div class="section">
