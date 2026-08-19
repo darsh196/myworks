@@ -54,7 +54,13 @@
               <p class="book-meta">
                 <span class="pill">{{ b.year }}</span>
                 <span class="pill">{{ b.genre }}</span>
-                <span class="pill" v-if="b.status">{{ b.status }}</span>
+                <span
+                  class="pill"
+                  :class="{ 'pill-development': b.status && b.status.toLowerCase().includes('in development') }"
+                  v-if="b.status"
+                >
+                  {{ b.status }}
+                </span>
               </p>
 
               <p class="book-blurb">{{ b.blurb }}</p>
@@ -94,7 +100,13 @@
               <div class="modal-meta">
                 <span class="pill">{{ activeBook.year }}</span>
                 <span class="pill">{{ activeBook.genre }}</span>
-                <span class="pill" v-if="activeBook.status">{{ activeBook.status }}</span>
+                <span
+                  class="pill"
+                  :class="{ 'pill-development': activeBook.status && activeBook.status.toLowerCase().includes('in development') }"
+                  v-if="activeBook.status"
+                >
+                  {{ activeBook.status }}
+                </span>
               </div>
             </div>
             <button class="icon-btn" @click="closeBook()" aria-label="Close">✕</button>
