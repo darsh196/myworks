@@ -23,7 +23,7 @@
     "blurb": "A cosmic journey within the boundary of life and death.",
     "synopsis": "In the distant future, a military astronaut awakens from a coma and finds himself incomprehensibly linked to an ancient alien megastructure that could hold the key to immortality and to the mystery of his own existence.",
     "cover": "./covers/ode-to-the-void.png",
-    "tags": ["Space", "Memory", "Aliens"],
+    "tags": ["Space", "Memory", "Time"],
     "links": [
         { "label": "Read First 5 Chapters Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Ode%20to%20the%20Void%20-%20First%205%20Chapters.pdf" }
     ]
@@ -83,7 +83,7 @@
     "blurb": "The city bears everything they've ever wanted.",
     "synopsis": "Three tales evolve across different centuries where three explorers attempt to find a mystical city they’ve only ever encountered in their dreams.",
     "cover": "./covers/the-call-from-beyond.png",
-    "tags": ["Period", "Mystery", "Identity"],
+    "tags": ["Period", "Faith", "Identity"],
     "links": [
         { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/The%20Call%20From%20Beyond%20-%20Summary.pdf" }
     ]
@@ -98,7 +98,7 @@
     "blurb": "What if we could reshape reality?",
     "synopsis": "Amidst a strange pandemic, an ailing detective investigates the mysterious disappearance of a woman and her daughter.",
     "cover": "./covers/time-empire.png",
-    "tags": ["Time Travel", "Guilt", "Identity"],
+    "tags": ["Time", "Guilt", "Identity"],
     "links": [
         { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Time%20Empire%20-%20Summary.pdf" }
     ]
@@ -277,15 +277,29 @@
     "year": 2025,
     "genre": "Sci-Fi / Mystery",
     "status": "In Development",
-    "blurb": "Is she just a dream?",
+    "blurb": "The pillar of light shall bear the truth about their origin.",
     "synopsis": "Millions of years into the future, a group of astronauts on a pilgrimage journey in search of eternal life are contacted by the dying civilization of a rogue planet.",
-    "cover": "./covers/symmetry.png",
-    "tags": ["Loss", "Guilt", "Identity"],
+    "cover": "./covers/starless.png",
+    "tags": ["Space", "Faith", "Time"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
   }
-  
+
+  {
+    "id": "fractal",
+    "title": "Fractal",
+    "year": 2026,
+    "genre": "Mystery / Drama",
+    "status": "In Development",
+    "blurb": "A house unbounded by the arrow of time.",
+    "synopsis": "A woman inherits a mansion that encloses ten versions of itself from different time periods, each with its own story that eventually merges with each other.,
+    "cover": "./covers/fractal.png",
+    "tags": ["Time", "Identity", "Hyperlink Narrative"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
   
 
 ]
