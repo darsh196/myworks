@@ -10,7 +10,7 @@
     "cover": "./covers/polymorph.jpg",
     "tags": ["Identity", "Memory", "War"],
     "links": [
-      { "label": "Read Now", "url": "#" }
+      { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Polymorph%20-%20Summary.pdf" }
     ]
   },
   
@@ -40,7 +40,7 @@
     "cover": "./covers/apip.jpeg",
     "tags": ["Love", "War", "Memory"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/A%20Princess%20in%20Paris%20-%20Summary.pdf" }
     ]
   },
 
@@ -55,7 +55,7 @@
     "cover": "./covers/the-reflection.png",
     "tags": ["Grief", "Guilt", "Memory"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/The%20Reflection%20-%20Summary.pdf" }
     ]
   },
 
@@ -70,7 +70,7 @@
     "cover": "./covers/ice-rainbow.png",
     "tags": ["Period", "Action", "Conspiracy", "War"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Ice%20Rainbow%20-%20Summary.pdf" }
     ]
   },
 
@@ -85,7 +85,7 @@
     "cover": "./covers/the-call-from-beyond.png",
     "tags": ["Period", "Mystery", "Identity"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/The%20Call%20From%20Beyond%20-%20Summary.pdf" }
     ]
   },
 
@@ -100,7 +100,7 @@
     "cover": "./covers/time-empire.png",
     "tags": ["Time Travel", "Guilt", "Identity"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Time%20Empire%20-%20Summary.pdf" }
     ]
   }, 
 
@@ -115,7 +115,7 @@
     "cover": "./covers/the-picnic.png",
     "tags": ["Surreal", "Love", "Memory"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/The%20Picnic%20-%20Summary.pdf" }
     ]
   },
 
@@ -145,7 +145,7 @@
     "cover": "./covers/assimilation.png",
     "tags": ["War", "Conspiracy", "Identity"],
     "links": [
-        { "label": "Read Now", "url": "#" }
+        { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Assimilation%20-%20Summary.pdf" }
     ]
   },
 
