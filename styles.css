@@ -160,9 +160,9 @@ body {
 }
 
 .pill-development {
-  background: rgba(220, 38, 38, 0.22);
-  border-color: rgba(239, 68, 68, 0.65);
-  color: #ff8a8a;
+  background: rgba(160, 55, 55, 0.18);
+  border-color: rgba(190, 75, 75, 0.4);
+  color: #d98a8a;
 }
 
 .book-blurb { margin: 0 0 12px; color: rgba(233,233,245,0.85); font-size: 14px; line-height: 1.35; min-height: 56px; }
