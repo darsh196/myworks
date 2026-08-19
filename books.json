@@ -7,7 +7,7 @@
     "status": "Summary Available",
     "blurb": "This thing will keep haunting you, even when you're at death's door.",
     "synopsis": "An old man on his deathbed reflects on three encounters he had with a mysterious shape-shifting entity throughout his lifetime.",
-    "cover": "./covers/polymorph.jpg",
+    "cover": "./covers/Polymorph.png",
     "tags": ["Identity", "Memory", "War"],
     "links": [
       { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/Polymorph%20-%20Summary.pdf" }
@@ -37,7 +37,7 @@
     "status": "Summary Available",
     "blurb": "A love story amidst cruelty and despair.",
     "synopsis": "In Nazi-occupied Paris, a teenager falls for a peculiar girl hailing from a mysterious kingdom threatened by the Germans.",
-    "cover": "./covers/apip.jpeg",
+    "cover": "./covers/apip.png",
     "tags": ["Love", "War", "Memory"],
     "links": [
         { "label": "Read Now", "url": "https://raw.githubusercontent.com/darsh196/myworks/main/writings/A%20Princess%20in%20Paris%20-%20Summary.pdf" }
