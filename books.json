@@ -239,7 +239,7 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  },
 
   {
     "id": "asymmetry",
@@ -254,7 +254,7 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  },
 
   {
     "id": "symmetry",
@@ -269,7 +269,7 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  },
 
   {
     "id": "starless",
@@ -284,7 +284,7 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  },
 
   {
     "id": "fractal",
@@ -299,7 +299,7 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  },
 
   {
     "id": "boiler",
