@@ -21,7 +21,7 @@
     "genre": "Sci-Fi / Mystery",
     "status": "First 5 Chapters Available",
     "blurb": "A cosmic journey within the boundary of life and death.",
-    "synopsis": "In the distant future, a military astronaut on the eve of a massive campaign finds himself inexplicably linked to an ancient alien megastructure where he is forced to confront the nature of his own existence.",
+    "synopsis": "In the distant future, a military astronaut awakens from a coma and finds himself incomprehensibly linked to an ancient alien megastructure that could hold the key to immortality and to the mystery of his own existence.",
     "cover": "./covers/ode-to-the-void.png",
     "tags": ["Space", "Memory", "Aliens"],
     "links": [
@@ -221,6 +221,66 @@
     "synopsis": "On a seemingly idyllic island, several lives weave together in a ballet of violence, addiction, corruption and the many woes that besmirch the country.",
     "cover": "./covers/paradise-whirl.png",
     "tags": ["Crime", "Hyperlink Narrative", "Trauma"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
+
+  {
+    "id": "asffp",
+    "title": "A Strange Fascination for Poetry",
+    "year": 2020,
+    "genre": "Mystery / Thriller",
+    "status": "In Development",
+    "blurb": "Why is he truly back?",
+    "synopsis": "During a devastating war, a soldier unexpectedly returns home to reunite with the love of his life but suspicions on why he’s truly back threaten to jeopardize everything he holds dear.",
+    "cover": "./covers/asffp.png",
+    "tags": ["War", "Love", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
+
+  {
+    "id": "asymmetry",
+    "title": "Asymmetry",
+    "year": 2022,
+    "genre": "Sci-Fi / Mystery",
+    "status": "In Development",
+    "blurb": "A ghost from the past.",
+    "synopsis": "In the wake of a past lover’s suicide, a woman begins to experience ghostly apparitions while trying to make sense of his passing.",
+    "cover": "./covers/asymmetry.png",
+    "tags": ["Loss", "Guilt", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
+
+  {
+    "id": "symmetry",
+    "title": "Symmetry",
+    "year": 2023,
+    "genre": "Sci-Fi / Mystery",
+    "status": "In Development",
+    "blurb": "Is she just a dream?",
+    "synopsis": "Plagued by strange dreams and an unexplainable connection to an unknown woman, a man's world is thrown into disarray when he starts receiving warnings of an imminent existential threat linked to his experiences.",
+    "cover": "./covers/symmetry.png",
+    "tags": ["Loss", "Guilt", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  }
+
+  {
+    "id": "starless",
+    "title": "Starless",
+    "year": 2025,
+    "genre": "Sci-Fi / Mystery",
+    "status": "In Development",
+    "blurb": "Is she just a dream?",
+    "synopsis": "Millions of years into the future, a group of astronauts on a pilgrimage journey in search of eternal life are contacted by the dying civilization of a rogue planet.",
+    "cover": "./covers/symmetry.png",
+    "tags": ["Loss", "Guilt", "Identity"],
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
