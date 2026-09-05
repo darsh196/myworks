@@ -314,7 +314,23 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
+  },
+
+  {
+    "id": "the-tale-of-the-dying-tree",
+    "title": "The Tale of the Dying Tree",
+    "year": 2026,
+    "genre": "Mystery / Drama",
+    "status": "In Development",
+    "blurb": "He's never letting go.",
+    "synopsis": "Despite his obsessive care and ideal conditions, a supernatural tree planted by the custodian of an abandoned mental asylum begins dying inexplicably.",
+    "cover": "./covers/the-tale-of-the-dying-tree.png",
+    "tags": ["Memory", "Loneliness", "Guilt"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
   }
+  
   
 
 ]
