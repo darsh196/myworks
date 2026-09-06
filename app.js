@@ -42,7 +42,7 @@
             if (!q) return matchesGenre;
 
             const hay = [
-            b.title, b.genre, b.status, b.blurb,
+            b.title, b.genre, b.status, b.blurb, b.trilogy,
             (b.tags || []).join(" ")
             ].join(" ").toLowerCase();
 
