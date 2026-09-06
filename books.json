@@ -329,6 +329,21 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
+  },
+
+  {
+    "id": "farewell-planet-x",
+    "title": "Farewell, Planet X",
+    "year": 2026,
+    "genre": "Sci-Fi / Mystery",
+    "status": "In Development",
+    "blurb": "Who are they? And why are they here?",
+    "synopsis": "Two amnesic astronauts splash down on an Earth which has no record of their existence.",
+    "cover": "./covers/farewell-planet-x.png",
+    "tags": ["Space", "Time", "Memory"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
   }
   
   
