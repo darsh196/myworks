@@ -287,6 +287,24 @@ body {
   object-fit: contain;  /* Add this */
 }
 
+.tag-origin {
+  background: rgba(86, 120, 180, 0.22);
+  border-color: rgba(110, 150, 215, 0.5);
+  color: #a8c8f0;
+}
+
+.tag-death {
+  background: rgba(135, 65, 80, 0.22);
+  border-color: rgba(180, 85, 105, 0.5);
+  color: #dfa0ad;
+}
+
+.tag-symmetry {
+  background: rgba(105, 75, 150, 0.22);
+  border-color: rgba(145, 105, 195, 0.5);
+  color: #c3a8e8;
+}
+
 .section, .text, .comment-text, .btn {
   min-width: 0;
   overflow-wrap: anywhere;
