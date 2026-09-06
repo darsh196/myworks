@@ -287,22 +287,22 @@ body {
   object-fit: contain;  /* Add this */
 }
 
-.tag-origin {
-  background: rgba(86, 120, 180, 0.22);
-  border-color: rgba(110, 150, 215, 0.5);
-  color: #a8c8f0;
+.trilogy-origin {
+  background: rgba(70, 105, 160, 0.22);
+  border-color: rgba(100, 140, 200, 0.45);
+  color: #a9c7ec;
 }
 
-.tag-death {
-  background: rgba(135, 65, 80, 0.22);
-  border-color: rgba(180, 85, 105, 0.5);
-  color: #dfa0ad;
+.trilogy-death {
+  background: rgba(120, 65, 75, 0.22);
+  border-color: rgba(165, 85, 100, 0.45);
+  color: #d6a0aa;
 }
 
-.tag-symmetry {
-  background: rgba(105, 75, 150, 0.22);
-  border-color: rgba(145, 105, 195, 0.5);
-  color: #c3a8e8;
+.trilogy-symmetry {
+  background: rgba(95, 70, 140, 0.22);
+  border-color: rgba(135, 100, 185, 0.45);
+  color: #c0a9df;
 }
 
 .section, .text, .comment-text, .btn {
