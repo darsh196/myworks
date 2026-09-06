@@ -68,7 +68,7 @@
                     :class="{
                       'trilogy-origin': b.trilogy === 'Origin Trilogy',
                       'trilogy-death': b.trilogy === 'Death Trilogy',
-                      'trilogy-symmetry': b.trilogy === 'Symmetry Trilogy'
+                      'trilogy-symmetry': b.trilogy && b.trilogy.includes('Symmetry Trilogy')
                     }"
                     v-if="b.trilogy"
                   >
