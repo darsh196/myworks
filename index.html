@@ -169,18 +169,7 @@
               <div class="section" v-if="activeBook.tags && activeBook.tags.length">
                 <h3 class="section-title">Tags</h3>
                 <div class="tag-row">
-                  <span
-                    class="tag"
-                    v-for="t in activeBook.tags"
-                    :key="t"
-                    :class="{
-                      'tag-origin': t === 'Origin Trilogy',
-                      'tag-death': t === 'Death Trilogy',
-                      'tag-symmetry': t === 'Symmetry Trilogy'
-                    }"
-                  >
-                    {{ t }}
-                  </span>
+                  <span class="tag" v-for="t in activeBook.tags" :key="t">{{ t }}</span>
                 </div>
               </div>
             </div>
