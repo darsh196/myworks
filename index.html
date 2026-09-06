@@ -52,16 +52,29 @@
             <div class="card-body">
               <h3 class="book-title">{{ b.title }}</h3>
               <p class="book-meta">
-                <span class="pill">{{ b.year }}</span>
-                <span class="pill">{{ b.genre }}</span>
-                <span
-                  class="pill"
-                  :class="{ 'pill-development': b.status && b.status.toLowerCase().includes('in development') }"
-                  v-if="b.status"
-                >
-                  {{ b.status }}
-                </span>
-              </p>
+                  <span class="pill">{{ b.year }}</span>
+                  <span class="pill">{{ b.genre }}</span>
+                
+                  <span
+                    class="pill"
+                    :class="{ 'pill-development': b.status && b.status.toLowerCase().includes('in development') }"
+                    v-if="b.status"
+                  >
+                    {{ b.status }}
+                  </span>
+                
+                  <span
+                    class="pill trilogy-pill"
+                    :class="{
+                      'trilogy-origin': b.trilogy === 'Origin Trilogy',
+                      'trilogy-death': b.trilogy === 'Death Trilogy',
+                      'trilogy-symmetry': b.trilogy === 'Symmetry Trilogy'
+                    }"
+                    v-if="b.trilogy"
+                  >
+                    {{ b.trilogy }}
+                  </span>
+               </p>
 
               <p class="book-blurb">{{ b.blurb }}</p>
 
