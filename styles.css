@@ -305,6 +305,21 @@ body {
   color: #c0a9df;
 }
 
+.option-origin {
+  color: #a9c7ec;
+  font-weight: 600;
+}
+
+.option-death {
+  color: #d9bd7a;
+  font-weight: 600;
+}
+
+.option-symmetry {
+  color: #c0a9df;
+  font-weight: 600;
+}
+
 .section, .text, .comment-text, .btn {
   min-width: 0;
   overflow-wrap: anywhere;
