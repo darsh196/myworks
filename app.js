@@ -31,15 +31,7 @@
     computed: {
       genres: function () {
         const set = new Set(this.books.map(b => b.genre).filter(Boolean));
-      
-        const genres = Array.from(set).sort((a, b) => a.localeCompare(b));
-      
-        return [
-          ...genres,
-          "Origin Trilogy",
-          "Death Trilogy",
-          "Symmetry Trilogy"
-        ];
+        return Array.from(set).sort((a, b) => a.localeCompare(b));
       },
       filteredBooks: function () {
         const q = (this.query || "").trim().toLowerCase();
