@@ -305,6 +305,10 @@ body {
   color: #c0a9df;
 }
 
+.dropdown-separator {
+  color: rgba(255, 255, 255, 0.25);
+}
+
 .option-origin {
   color: #a9c7ec;
   font-weight: 600;
