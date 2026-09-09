@@ -33,19 +33,38 @@
             aria-label="Search books"
           />
           <select class="select" v-model="genreFilter" aria-label="Filter by genre">
-            <option value="">All genres</option>
-            <option
-              v-for="g in genres"
-              :key="g"
-              :value="g"
-              :class="{
-                'option-origin': g === 'Origin Trilogy',
-                'option-death': g === 'Death Trilogy',
-                'option-symmetry': g === 'Symmetry Trilogy'
-              }"
-            >
-              {{ g }}
-            </option>
+              <option value="">All genres</option>
+            
+              <option
+                v-for="g in genres"
+                :key="g"
+                :value="g"
+              >
+                {{ g }}
+              </option>
+            
+              <option disabled class="dropdown-separator">──────────────</option>
+            
+              <option
+                value="Origin Trilogy"
+                class="option-origin"
+              >
+                Origin Trilogy
+              </option>
+            
+              <option
+                value="Death Trilogy"
+                class="option-death"
+              >
+                Death Trilogy
+              </option>
+            
+              <option
+                value="Symmetry Trilogy"
+                class="option-symmetry"
+              >
+                Symmetry Trilogy
+              </option>
           </select>
         </div>
 
