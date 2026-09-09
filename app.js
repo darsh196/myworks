@@ -31,14 +31,25 @@
     computed: {
       genres: function () {
         const set = new Set(this.books.map(b => b.genre).filter(Boolean));
-        return Array.from(set).sort((a, b) => a.localeCompare(b));
+      
+        const genres = Array.from(set).sort((a, b) => a.localeCompare(b));
+      
+        return [
+          ...genres,
+          "Origin Trilogy",
+          "Death Trilogy",
+          "Symmetry Trilogy"
+        ];
       },
       filteredBooks: function () {
         const q = (this.query || "").trim().toLowerCase();
         const gf = (this.genreFilter || "").trim().toLowerCase();
 
         let list = this.books.filter(b => {
-            const matchesGenre = !gf || (b.genre || "").toLowerCase() === gf;
+            const matchesGenre =
+              !gf ||
+              (b.genre || "").toLowerCase() === gf ||
+              (b.trilogy || "").toLowerCase().includes(gf);
             if (!q) return matchesGenre;
 
             const hay = [
