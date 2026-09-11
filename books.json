@@ -353,7 +353,25 @@
     "links": [
         { "label": "Read Now", "url": "#" }
     ]
-  }
+  },
+
+  {
+    "id": "supersymmetry",
+    "title": "Supersymmetry",
+    "year": 2026,
+    "genre": "Sci-Fi / Mystery",
+    "status": "In Development",
+    "trilogy": "Part 3 - Symmetry Trilogy",
+    "blurb": "Did she really exist?",
+    "synopsis": "A lonely salvager begins experiencing vivid memories of a woman who everyone and every record insists never existed.",
+    "cover": "./covers/supersymmetry.png",
+    "tags": ["Memory", "Time", "Identity"],
+    "links": [
+        { "label": "Read Now", "url": "#" }
+    ]
+  },
+
+  
   
   
 
