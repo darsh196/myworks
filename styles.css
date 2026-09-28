@@ -136,6 +136,7 @@ body {
 }
 
 .update-dot {
+  display: block;
   width: 7px;
   height: 7px;
   flex-shrink: 0;
