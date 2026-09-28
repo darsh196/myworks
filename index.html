@@ -22,6 +22,19 @@
       </div>
     </header>
 
+    <section class="updates-section container" v-if="updates && updates.length">
+      <h2 class="updates-title">Updates</h2>
+    
+      <div class="update-item" v-for="(update, index) in updates" :key="index">
+        <span class="update-dot"></span>
+    
+        <div class="update-content">
+          <span class="update-text">{{ update.text }}</span>
+          <span class="update-date" v-if="update.date">{{ update.date }}</span>
+        </div>
+      </div>
+    </section>
+
     <main class="container">
       <section class="panel">
         <div class="panel-row">
