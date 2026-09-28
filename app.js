@@ -15,6 +15,12 @@
         subtitle: "Stories & Novels by Darshan Jain Goburdhone",
         author: "Darshan Goburdhone"
       },
+      updates: [
+        {
+          text: "Summary for Wicked Crossings now available",
+          date: "September 2026"
+        }
+      ],
       books: [],
       _apiSummary: {},
       comments: [],
