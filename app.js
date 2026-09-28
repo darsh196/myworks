@@ -17,8 +17,8 @@
       },
       updates: [
         {
-          text: "Summary for Wicked Crossings now available",
-          date: "September 2026"
+          text: "Summary for "Wicked Crossings" now available",
+          date: "September 28, 2026"
         }
       ],
       books: [],
