@@ -17,7 +17,7 @@
       },
       updates: [
         {
-          text: "Summary for "Wicked Crossings" now available",
+          text: "Summary for 'Wicked Crossings' now available",
           date: "September 28, 2026"
         }
       ],
