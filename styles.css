@@ -141,7 +141,7 @@ body {
   flex-shrink: 0;
   border-radius: 50%;
   background: rgba(120, 150, 220, 0.9);
-  box-shadow: 0 0 6px rgba(120, 150, 220, 0.4);
+  box-shadow: 0 0 6px rgba(120, 150, 220, 0.45);
 }
 
 .update-content {
