@@ -172,12 +172,6 @@ body {
     gap: 14px;
   }
 
-  .updates-title::after {
-    content: "•";
-    margin-left: 14px;
-    color: rgba(255, 255, 255, 0.25);
-  }
-
 }
 
 
