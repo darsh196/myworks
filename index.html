@@ -159,7 +159,7 @@
                 <span class="pill">{{ activeBook.genre }}</span>
                 <span
                   class="pill"
-                  :class="{ 'pill-development': activeBook.status && activeBook.status.toLowerCase().includes('in development') }"
+                  :class="{ 'pill-development': activeBook.status && activeBook.status.toLowerCase().includes('in development','in revision') }"
                   v-if="activeBook.status"
                 >
                   {{ activeBook.status }}
