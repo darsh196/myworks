@@ -111,7 +111,7 @@
                 
                   <span
                     class="pill"
-                    :class="{ 'pill-development': b.status && b.status.toLowerCase().includes('in development', 'revision stage') }"
+                    :class="{ 'pill-development': b.status && b.status.toLowerCase().includes('in development','in revision') }"
                     v-if="b.status"
                   >
                     {{ b.status }}
