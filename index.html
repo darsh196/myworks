@@ -111,7 +111,7 @@
                 
                   <span
                     class="pill"
-                    :class="{ 'pill-development': b.status && ['in development', 'in revision'].includes(b.status.toLowerCase()) }"
+                    :class="{ 'pill-development': b.status && (b.status.toLowerCase().includes('in development') || b.status.toLowerCase().includes('in revision')) }"
                     v-if="b.status"
                   >
                     {{ b.status }}
@@ -159,7 +159,7 @@
                 <span class="pill">{{ activeBook.genre }}</span>
                 <span
                   class="pill"
-                  :class="{ 'pill-development': activeBook.status && ['in development', 'in revision'].includes(activeBook.status.toLowerCase()) }"
+                  :class="{ 'pill-development': activeBook.status && (activeBook.status.toLowerCase().includes('in development') || activeBook.status.toLowerCase().includes('in revision')) }"
                   v-if="activeBook.status"
                 >
                   {{ activeBook.status }}
